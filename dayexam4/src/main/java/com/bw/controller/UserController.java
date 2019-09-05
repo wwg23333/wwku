@@ -14,6 +14,7 @@ public class UserController {
 	
 	@RequestMapping("list.do")
 	public String lit() {
+		System.out.println("hahahah");
 		//跳转到list页面显示结果
 		return "list";
 	}
